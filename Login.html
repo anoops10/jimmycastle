@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="custom.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <div class="hero ">
+    <h1>Jimmy's Castle</h1>
+    <p>your pet's need, delivered to your doorstep</p>
+  </div>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg position-sticky top-0 bg-dark" style="z-index: 999;" id="navMain">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li><a class="nav-link" href="Login.html">Login</a></li>
+          <li><a class="nav-link" href="Registeration.html">Register</a></li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="Login.html">Login</a></li>
+              <li><a class="dropdown-item" href="Registeration.html">Register</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+            </ul> -->
+          </li>
+        </ul>
+        <!-- Cart Icon with badge (add this before the search form) -->
+        <!-- <div class="me-3">
+          <a href="#" class="btn btn-outline-primary position-relative" id="cart-btn">
+            <i class="bi bi-cart3 fs-5"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              id="cart-count">
+              0
+            </span>
+          </a>
+        </div> -->
+        <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-box">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
+      <!-- <div class="toggle-btn">
+        <button class="btn btn-outline-dark">🌗 Dark Mode</button>
+      </div> -->
+    </div>
+  </nav>
+
+  <!-- body -->
+  <!-- LoginForm -->
+  <!-- <div class="mt-5">
+    <form onsubmit="return validation()" class="form-control mx-auto" style="width: 40%;">
+      <img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="40">
+      <h1 class="h3 my-3 fw-normal">Please sign in</h1>
+
+      <div class="form-floating">
+        <input type="email" class="form-control" id="emailId" placeholder="name@example.com">
+        <label for="emailId">Email address</label>
+        <div id="emailErr" style="color: red;"></div>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="passId" placeholder="Password">
+        <label for="passId">Password</label>
+        <span id="passErr" style="color: red;"></span>
+      </div>
+
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">© 2017–2021</p>
+    </form>
+  </div> -->
+  <!-- <form onsubmit="return validation()" class="form-control mx-auto mt-5 p-5" style="width: fit-content;">
+    <table>
+      <thead>Login Form</thead>
+      <caption>Login</caption>
+      <tbody>
+        <tr>
+          <td>
+            <label for="">Email Id:</label>
+          </td>
+          <td>
+            <input type="email" name="" id="emailId">
+          </td>
+        <tr>
+          <td></td>
+          <td>
+            <div id="emailErr" style="color: red;"></div>
+          </td>
+        </tr>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Password:</label>
+          </td>
+          <td>
+            <input type="password" id="passId">
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <span id="passErr" style="color: red;"></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <input type="submit" value="submit"> -->
+  <!-- <button type="submit">Login</button> -->
+  <!-- </form> -->
+  <!-- script -->
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="row">
+      <div class="col">
+        <img
+          src="https://media.istockphoto.com/id/1482199939/photo/happy-sitting-and-panting-golden-retriever-dog-looking-at-camera-isolated-on-white.jpg?s=612x612&w=0&k=20&c=GkpS5ccG3eE-_PokSTwxiWU8-hAhgafVVUqDBqNi5Ag="
+          alt="">
+      </div>
+      <div class="col">
+        <div class="card p-4 shadow-sm" style="width: 100%; max-width: 400px;">
+          <h4 class="text-center mb-4">Log In</h4>
+          <form onsubmit="return validation()">
+            <div class="mb-3">
+              <label for="emailId" class="form-label">Email</label>
+              <input type="text" class="form-control" id="emailId">
+              <div id="emailErr" style="color: red;"></div>
+            </div>
+            <div class="mb-3">
+              <label for="passId" class="form-label">Password</label>
+              <input type="password" class="form-control" id="passId">
+              <div id="passErr"></div>
+            </div>
+            <div class="d-grid mb-2">
+              <button type="submit" class="btn btn-primary" id="submit">Log in</button>
+            </div>
+            <div class="text-center mb-3">
+              <a href="#" class="text-decoration-none">Forgotten password?</a>
+            </div>
+            <hr>
+            <div class="d-grid">
+              <a href="Registeration.html" class="btn btn-success">Create new account</a>
+              <!-- <button  type="button" class="btn btn-success">Create new account</button> -->
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Footer -->
+  <div class="footer-section">
+    &copy; 2025 Jimmy's Castle. All rights reserved.
+  </div>
+</body>
+<script>
+  function validation() {
+    let email = document.getElementById("emailId").value;
+    if (email == "") {
+      document.getElementById("emailErr").innerHTML = "Email is required";
+      return false;
+    }
+    let pass = document.getElementById("passId").value;
+    if (pass == "") {
+      document.getElementById("passErr").innerHTML = "password is required";
+      return false;
+    }
+    return true
+  }
+  // document.querySelector("#submit").addEventListener("click",()=>{
+  //   validation();
+  // })
+</script>
+</body>
+
+</html>
