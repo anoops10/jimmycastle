@@ -1,9 +1,6 @@
 .toggle-btn {
-  /* position: sticky; */
-  /* float: right; */
   top: 1%;
   right: 1%;
-  /* z-index: 999; */
 }
 
 .dark-mode {
@@ -11,20 +8,13 @@
   color: #f1f1f1;
 }
 
-/* .dark-mode .card {
-      background-color: #1e1e1e;
-      color: #f1f1f1;
-    } */
+
 .hero {
-  /* border: 1px solid black; */
-  /* position: fixed; */
-  /* width: 98.5%; */
+ 
   background-color: aliceblue;
-  /* background: url('https://source.unsplash.com/1600x600/?food,delivery') center/cover no-repeat; */
   color: white;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
   padding: 20px 20px;
-  /* text-align: center; */
 }
 
 .hero h1 {
@@ -88,43 +78,7 @@ body.dark-mode .list-group-item {
   transition: background 0.2s, color 0.2s;
 }
 
-/* Remove or comment out all mouse over (hover) effects */
 
-/* Example: 
-.card:hover {
-  transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 8px 32px rgba(59,130,246,0.18), 0 2px 8px rgba(0,0,0,0.10);
-  border: 1.5px solid #3b82f6;
-}
-*/
-
-/* Example:
-.card .btn-primary:hover {
-  background: linear-gradient(90deg, #3b82f6 0%, #6ee7b7 100%);
-  color: #222 !important;
-}
-*/
-
-/* Example:
-.sidebar .category-btn.active,
-.sidebar .category-btn:hover {
-  background: #3b82f6;
-  color: #fff;
-}
-*/
-
-/* Example:
-.btn:hover,
-.btn-primary:hover {
-  background: #b52a37 !important;
-  border-color: #b52a37 !important;
-  color: #fff !important;
-}
-*/
-
-/* Remove any other :hover selectors in this file */
-
-/* Sidebar custom styles */
 .sidebar {
   background: linear-gradient(135deg, #f0f4ff 60%, #e0e7ff 100%);
   border-radius: 18px;
@@ -229,7 +183,7 @@ body.dark-mode .navbar {
   background: #23272f !important;
 }
 
-/* Dark mode toggle button: dark on light, light on dark */
+/* Dark mode toggle button*/
 .toggle-btn .btn {
   background: #23272f;
   color: #fff;
@@ -248,4 +202,5 @@ body.dark-mode .toggle-btn .btn {
 body.dark-mode .toggle-btn .btn:hover {
   background: #3b82f6;
   color: #fff;
+
 }
