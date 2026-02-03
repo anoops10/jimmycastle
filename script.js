@@ -45,19 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
     { id: 26, name: "Bird Ladder", img: "https://m.media-amazon.com/images/I/51nyxhfuc6L.jpg", price: 129, category: "birds" },
     { id: 27, name: "Bird Mirror", img: "https://m.media-amazon.com/images/I/61f4sp42H7L._UF1000,1000_QL80_.jpg", price: 89, category: "birds" },
     { id: 28, name: "Bird Nest", img: "https://onlymat.com/cdn/shop/products/IMG_014700033.JPG?v=1588514068&width=1445", price: 179, category: "birds" },
-    // { id: 29, name: "Bird Water Dispenser", img: "https://m.media-amazon.com/images/I/61Qw2Qk8QxL._AC_UL480_FMwebp_QL65_.jpg", price: 119, category: "birds" },
-    // { id: 30, name: "Bird Chew Toy", img: "https://m.media-amazon.com/images/I/61p1QwQk8QL._AC_UL480_FMwebp_QL65_.jpg", price: 99, category: "birds" },
-    // Accessories
-    // { id: 31, name: "Pet Carrier", img: "https://m.media-amazon.com/images/I/71vQkz+4kGL._AC_UL480_FMwebp_QL65_.jpg", price: 899, category: "accessories" },
-    // { id: 32, name: "Pet Blanket", img: "https://m.media-amazon.com/images/I/61h2Qd8gQdL._AC_UL480_FMwebp_QL65_.jpg", price: 299, category: "accessories" },
-    // { id: 33, name: "Pet Shampoo", img: "https://m.media-amazon.com/images/I/81b6p7r6wGL._AC_UL480_FMwebp_QL65_.jpg", price: 199, category: "accessories" },
-    // { id: 34, name: "Pet Comb", img: "https://m.media-amazon.com/images/I/61Qw2Qk8QxL._AC_UL480_FMwebp_QL65_.jpg", price: 99, category: "accessories" },
-    // { id: 35, name: "Pet Water Bottle", img: "https://m.media-amazon.com/images/I/61p1QwQk8QL._AC_UL480_FMwebp_QL65_.jpg", price: 149, category: "accessories" },
-    // { id: 36, name: "Pet Travel Bag", img: "https://m.media-amazon.com/images/I/71vQkz+4kGL._AC_UL480_FMwebp_QL65_.jpg", price: 799, category: "accessories" },
-    // { id: 37, name: "Pet Nail Clipper", img: "https://m.media-amazon.com/images/I/61h2Qd8gQdL._AC_UL480_FMwebp_QL65_.jpg", price: 129, category: "accessories" },
-    // { id: 38, name: "Pet Feeding Bowl", img: "https://m.media-amazon.com/images/I/81b6p7r6wGL._AC_UL480_FMwebp_QL65_.jpg", price: 179, category: "accessories" },
-    // { id: 39, name: "Pet Mat", img: "https://m.media-amazon.com/images/I/61Qw2Qk8QxL._AC_UL480_FMwebp_QL65_.jpg", price: 119, category: "accessories" },
-    // { id: 40, name: "Pet Toy Set", img: "https://m.media-amazon.com/images/I/61p1QwQk8QL._AC_UL480_FMwebp_QL65_.jpg", price: 399, category: "accessories" },
+   
   ];
 
   // Render Products
@@ -118,4 +106,5 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   // Initial attach
   attachCartListeners();
+
 });
